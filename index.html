@@ -2,32 +2,49 @@
 <html>
   <head>
     <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
     <title>Peek-a-boo</title>
   </head>
   <body>
+    <h1>Where do you like to visit?</h1>
+    <div class="row">
+      <div class="col-sm-3">
     <div class="ocean">
-      <h1>Ocean</h1>
-      <p class="clickMe">Click me</p>
-      <div class="hide">
+      <h2>Ocean</h2>
+      <p class="oceanClickMe">Click me</p>
+      <div class="oceanHide">
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam in luctus libero. In vitae erat at nulla vulputate euismod at eget odio. Donec eu lobortis leo. Donec congue imperdiet turpis a commodo.</p>
       </div>
     </div>
+  </div>
+  <div class="col-sm-3">
     <div class="mountains">
-      <h1>Mountains</h1>
+      <h2>Mountains</h2>
 
       <p>Donec in nibh tempor elit porta blandit sit amet et mi. Etiam nec ultrices dui. Maecenas dolor felis, eleifend vel bibendum eget, varius et elit</p>
     </div>
+  </div>
+  <div class="col-sm-3">
     <div class="lake">
-      <h1>Lake</h1>
-      <p class="clickMe">Click me</p>
-      <div class="hide">
+      <h2>Lake</h2>
+      <p class="lakeClickMe">Click me</p>
+      <div class="lakeHide">
         <p>Nullam quis interdum dolor. Pellentesque eu orci molestie enim feugiat dictum nec at lectus. Mauris molestie turpis vel est aliquam rutrum.</p>
     </div>
-    </div>
+  </div>
+</div>
+<div class="col-sm-3">
     <div class="city">
-      <h1>City</h1>
+      <h2>City</h2>
       <p>leifend consectetur metus eget tempus. Sed ac tincidunt nisi, quis egestas est. Donec volutpat velit vel eros auctor vehicula. Nulla facilisi. Pellentesque consequat tellus arcu, vitae venenatis leo elementum ac. Vivamus mattis convallis ligula nec hendrerit.</p>
     </div>
+  </div>
+  </div>
+  <div class="container">
+    <button class="btn btn-success" id="green">Green</button>
+    <button class="btn btn-warning" id="yellow">Yellow</button>
+    <button class="btn btn-danger" id="red">Red</button>
+  </div>
     <script src="js/jquery-1.12.2.js"></script>
     <script src="js/scripts.js"></script>
   </body>

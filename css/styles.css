@@ -1,16 +1,43 @@
-.hide {
+.oceanHide {
   display: none;
 }
- .ocean .clickMe {
+.lakeHide {
+  display: none;
+}
+ .oceanClickMe {
    color: #0088CC;
    cursor: pointer;
-
  }
- .lake .clickMe {
+ .lakeClickMe {
    color: #0088CC;
    cursor: pointer;
-
  }
 div {
   border: 1px solid black;
+}
+h1 {
+  text-align: center;
+  font-variant: small-caps;
+  font-family: fantasy;
+}
+h2 {
+  text-align: center;
+  text-decoration: underline;
+}
+p {
+  text-align: center;
+}
+.ocean {
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/e/e0/Clouds_over_the_Atlantic_Ocean.jpg);
+}
+
+.green {
+  background-color: green;
+}
+
+.yellow {
+  background-color: yellow;
+}
+.red {
+  background-color: red;
 }

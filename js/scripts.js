@@ -1,7 +1,22 @@
-$(".ocean .clickMe").click(function (){
-  $(".ocean .hide").fadeToggle();
+$(".oceanClickMe").click(function (){
+  $(".oceanHide").fadeToggle();
 });
 
-$(".lake .clickMe").click(function (){
-  $(".lake .hide").fadeToggle();
+$(".lakeClickMe").click(function (){
+  $(".lakeHide").fadeToggle();
+});
+
+$("#green").click(function() {
+  $("body").removeClass();
+  $("body").addClass("green");
+});
+
+$("#yellow").click(function() {
+  $("body").removeClass();
+  $("body").addClass("yellow");
+});
+
+$("#red").click(function() {
+  $("body").removeClass();
+  $("body").addClass("red");
 });
