@@ -1,0 +1,16 @@
+.hide {
+  display: none;
+}
+ .ocean .clickMe {
+   color: #0088CC;
+   cursor: pointer;
+
+ }
+ .lake .clickMe {
+   color: #0088CC;
+   cursor: pointer;
+
+ }
+div {
+  border: 1px solid black;
+}
